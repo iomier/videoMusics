@@ -6,7 +6,6 @@ import Video from '../Utils/Video';
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from '../Theme/theme';
 import { Route, Switch } from 'react-router-dom';
-import HeroVideo from './HeroVideo';
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -15,7 +14,7 @@ function App() {
         <StApp>
           <Header />
           <Switch>
-            <Route exact path='/' component={HeroVideo} />
+            <Route exact path='/' component={Main} />
             <Route path='/video/:id' component={Video} />
           </Switch>
           <Footer />

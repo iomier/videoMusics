@@ -3,9 +3,9 @@ import HeroVideo from './HeroVideo';
 
 const Main = () => {
   return (
-    <div>
+    <>
       <HeroVideo />
-    </div>
+    </>
   );
 };
 

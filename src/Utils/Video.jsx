@@ -2,7 +2,6 @@ import React from 'react';
 import { useWindowSize } from '../CustomHooks/useWindowSize';
 const Video = props => {
   const size = useWindowSize();
-  console.log(size);
   return (
     <div>
       <iframe
