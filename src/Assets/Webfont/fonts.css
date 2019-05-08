@@ -1,0 +1,29 @@
+@font-face {
+  font-family: EstedadBlack;
+  src: url('./Estedad-Black.woff2') format('woff2');
+  font-weight: 900;
+}
+@font-face {
+  font-family: EstedadBold;
+  src: url('./Estedad-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: EstedadLight;
+  src: url('./Estedad-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: EstedadMedium;
+  src: url('./Estedad-Medium.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: EstedadThin;
+  src: url('./Estedad-Thin.woff2') format('woff2');
+  font-weight: 200;
+}
+
+a {
+  font-family: EstedadMedium;
+}
